@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proj1';
+name:string="";
+  eventBindingClick() {
+    this.title= "even binding ile proje adı proj 5 olarak değiştirildi."
+  }
 }
