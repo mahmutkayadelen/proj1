@@ -1,4 +1,5 @@
 # Proj1
+Anguları pekiştirmek amacıyla kurulan projedir.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
