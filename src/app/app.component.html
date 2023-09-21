@@ -20,3 +20,28 @@
 {{name.length ==0 ? title: name}}
 {{name.length}}
 <hr>
+directive ngfor
+<br>
+<div *ngFor="let city of cities;index as s">{{city}}-{{s}}</div>
+<div *ngFor="let city of cities;let index=index; let first =first ; let last=last; let even=even; let odd=odd;">{{city}}-{{index}}-{{first}}-{{last}}-{{even}}-{{odd}}</div>
+
+<ul *ngFor="let city of cities">
+  <li>{{city}}</li>
+</ul>
+<br>
+<hr>
+<div *ngIf="visible">Hello World</div>
+<div *ngIf="visible; else elseMessage" > İf Message</div>
+<ng-template #elseMessage> else message</ng-template>
+directive ngSwich
+<br>
+<hr>
+<div [ngSwitch]="ngSwicthNumber">
+  <div *ngSwitchCase="1"> Sayı 1 dir</div>
+  <div *ngSwitchCase="2"> Sayı 1 dir</div>
+  <div *ngSwitchCase="3"> Sayı 1 dir</div>
+
+
+</div>
+
+
