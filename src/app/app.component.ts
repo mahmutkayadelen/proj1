@@ -16,10 +16,10 @@ ngSwicthNumber : number =1;
   eventBindingClick() {
     this.title= "even binding ile proje adı proj 5 olarak değiştirildi."
   }
-  
+
 */
 
 //Directive Oluşturma
 
-
+  cities: string[] = ["Adana", "Ankara","İstanbul","Diyarbakır","Erzurum"]
 }

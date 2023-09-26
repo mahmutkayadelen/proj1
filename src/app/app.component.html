@@ -41,8 +41,17 @@ directive ngSwich
   <div *ngSwitchCase="2"> Sayı 1 dir</div>
   <div *ngSwitchCase="3"> Sayı 1 dir</div>
 
-
 </div>
-
 -->
-<div appExample color="blue">Custoöm directive</div>
+<!-- <div appExample color="blue">Custoöm directive</div> -->
+<div *appCustomif="true">merhaba Custom if</div>
+<ul>
+  <li *appCustomfor="10; let i = index">merhaba Custom for {{i}}</li>  //index kullanmasaydıkta olurdu
+</ul>
+
+
+<ul>
+  <li *appCustomForArray="cities; let name"> {{name}}</li>  //index kullanmasaydıkta olurdu
+</ul>
+
+
